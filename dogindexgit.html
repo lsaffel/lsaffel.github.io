@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<!-- dog index page -->
+<!--	Author: Lisa Saffel
+			Date: June 1, 2020
+			Languages: HTML / CSS / Javascript
+			Purpose: A web site with an index, contact page and register page
+-->
+
+
+<head>
+	<title>Main page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- link to an external CSS style sheet -->
+	<link rel="stylesheet" type="text/css" href="dogsitestylesgit.css">
+	<style>
+		/* display a background image on this main page */
+		body {
+			background-image: url("Dog_pictures/lightest2-creamy-bricks.jpg");
+		}
+	</style>
+
+	<!-- link to an external Javascript sheet -->
+	<title>Including Javascript in HTML</title>
+	<script type="text/javascript" src="dogscriptgit.js"></script>
+
+</head>
+<body>
+	<!-- Display the logo of the page and the top header, side by side -->
+	<div class="flex-container">
+		<div class="row">
+			<div class="twocolumn">
+				<img src="Dog_pictures/PosiTrainLogo.png" alt="PosiTrain logo" class="logo">
+			</div>
+			<div class="twocolumn">
+				<h1>Welcome to PosiTrain Dog Training</h1>
+			</div>
+		</div>
+	</div>
+
+	<!-- images section - display three images of some types of dog training that this company's dog trainers help people to do -->
+	<section>
+		<div class="flex-container"><h1>Do you want to try something new with your dog ? We are here to help you accomplish your goals !</h1></div>
+		<div class="row">
+			<div class="threecolumn">
+				<img src="Dog_pictures/dachshund-heelingWS.jpeg" alt="Dachshund heeling" class="responsive">
+			</div>
+			<div class="threecolumn">
+				<img src="Dog_pictures/pointer-jumpingWS.jpeg" alt="a Pointer jumping in agility" class="responsive">
+			</div>
+			<div class="threecolumn">
+				<img src="Dog_pictures/dog-frisbeeWS.jpeg" alt="dog catching frisbee" class="responsive">
+			</div>
+		</div>
+		<br /><br /><br /><br /><br />
+	</section>
+
+	<!-- contact and register section, containing image links to the contact and register pages -->
+	<section>
+		<div class="flex-container">
+			<div class="row">
+				<div class="twocolumn">
+					<a href="dogcontactgit.html">
+						<img border="0" alt="Contact Us" src="Dog_pictures/contact-us-blueHt183.png">
+					</a>
+				</div>
+				<div class="twocolumn">
+					<a href="dogregistergit.html">
+						<img border="0" alt="Register" src="Dog_pictures/register-blue-cropped.png">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer displayed at the bottom of the page with a copyright symbol -->
+	<div class="footer">
+		<p>This page is copyright &copy Lisa Saffel</p>
+	</div>
+
+</body>
+
+</html>

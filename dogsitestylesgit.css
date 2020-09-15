@@ -1,0 +1,95 @@
+
+/*	Author: Lisa Saffel
+			Date: June 1, 2020
+			Languages: HTML / CSS / Javascript
+			Purpose: A web site with an index, contact page and register page
+			CSS style sheet for the web site
+*/
+
+		/* background image for the main page */
+		.backgroundHome {
+			 background-image: url("Dog_pictures/creamy-bricks.jpg");
+		}
+
+
+
+		.row {
+		  display: flex;
+		}
+
+		/* Create three equal columns that sit next to each other */
+		.threecolumn {
+		  flex: 33.33%;
+		  padding: 5px;
+		}
+
+		/* create a line with two columns side by side - for the contact and registration image links */
+		.twocolumn {
+			flex: 50%;
+			padding: 5px;
+		}
+
+		/* align to the centre */
+		.flex-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		/* make the web site adjust if the browser window is resized */
+		.responsive {
+			 width: 100%;
+			 height: auto;
+		}
+
+		/* page formatting */
+		.otherpages {
+			 width: 25%;
+			 height: auto;
+		}
+
+		/* resize the logo smaller - for the main index page */
+		.logo {
+			height: 150px;
+		}
+
+		/* margin for the address - contact page */
+		.addressmargin{
+			margin-left: 40%;
+			margin-right: 40%;
+		}
+
+		/* green border boxes - contact page */
+		.centerWborder {
+			margin: auto;
+			width: 50%;
+			border: 4px solid green;
+			padding: 30px;
+		}
+
+		/* centre a text section */
+		.textcenter {
+			text-align: center;
+		}
+
+		/* position for the footer - main index page */
+		.footer {
+		  position: fixed;
+		  left: 0;
+		  bottom: 0;
+		  width: 100%;
+		  text-align: center;
+		}
+
+		/* border - contact page */
+		.round2 {
+			border: 8px solid green;
+			border-radius: 30px;
+			border-style: groove;
+			padding: 20px;
+		}
+
+		/* background colour for the main index page - replaced later with a background image */
+		.body {
+			background-color: wheat;
+		}
